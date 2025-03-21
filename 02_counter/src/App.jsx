@@ -10,6 +10,12 @@ function App() {
   const addvalue = () => {
     if(counter < 20) {
       setCounter(counter + 1);
+
+      // This method to jumb plus 4 value 
+      // setCounter(prevCounter => prevCounter + 1)
+      // setCounter(prevCounter => prevCounter + 1)
+      // setCounter(prevCounter => prevCounter + 1)
+      // setCounter(prevCounter => prevCounter + 1)
     }
   }
   const removevalue = () => {
